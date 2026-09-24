@@ -60,3 +60,26 @@ Daily automated backup → AWS S3
 - `scripts/backup.sh` — MySQL dump → S3 upload
 - `scripts/monitor.sh` — Server health check (disk, memory, containers)
 - `scripts/disk_alert.sh` — Disk usage threshold alert
+
+## Screenshots
+
+### Live Application (HTTPS with SSL)
+![Live Site](screenshots/live-site.png)
+
+### Docker Containers Running
+![Docker Containers](screenshots/docker-ps.png)
+
+### CI/CD Pipeline — GitHub Actions Successful Deploy
+![GitHub Actions](screenshots/github-actions-success.png)
+
+### Automated Backup in AWS S3
+![S3 Backup](screenshots/s3-backup.png)
+
+### SSL Certificate (Let's Encrypt)
+![SSL Certificate](screenshots/ssl-certificate.png)
+
+### Automated Cron Jobs (Backup + Monitoring)
+![Cron Jobs](screenshots/crontab.png)
+
+### Firewall Configuration (UFW)
+![UFW Status](screenshots/ufw-status.png)
