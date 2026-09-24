@@ -3,7 +3,8 @@
 A production-style deployment demonstrating cloud infrastructure, containerization, CI/CD, and security practices — built end-to-end on AWS EC2.
 
 ## Live Demo
-https://aqib-devops.duckdns.org
+https://aqib-devops.duckdns.org 
+Note: Demo environment decommissioned post-project completion
 
 ## Architecture
 GitHub (push) → GitHub Actions (CI/CD)
